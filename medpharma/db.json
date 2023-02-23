@@ -1,0 +1,809 @@
+{ "data" :{
+       "med1" : [
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/15771/vigomax_forte_tablet_20s_0_0.jpg",
+     "save-badge": "11% OFF",
+     "name": "Vigomax Forte Tablet 20'S",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Charak Pharma Pvt Ltd",
+     "price-box 2": "200.25",
+     "id": 1
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/824249/sri_sri_tattva_organic_tulasi_arka_drops_30_ml_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Sri Sri Tattva Organic Tulasi Arka Drops 30 ml",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Sriveda Sattva Pvt Ltd",
+     "price-box 2": "104.50",
+     "id": 2
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/322655/livotone_capsule_10_s_0.jpg",
+     "save-badge": "11% OFF",
+     "name": "Livotone Capsule 10'S",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: East India Pharmaceutical Works Ltd",
+     "price-box 2": "55.18",
+     "id": 3
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/409911/zandu_vigorex_gold_capsule_10s_0_1.jpg",
+     "save-badge": "12% OFF",
+     "name": "Zandu Vigorex Gold Capsule 10's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Emami Ltd",
+     "price-box 2": "211.20",
+     "id": 4
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/402167/geriforte_tablet_100_s_0.jpg",
+     "save-badge": "11% OFF",
+     "name": "Himalaya Geriforte Tablet 100's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "151.30",
+     "id": 5
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/326888/prostalyn_capsule_6_s_0.jpg",
+     "save-badge": "10% OFF",
+     "name": "Prostalyn Capsule 6'S",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: East India Pharmaceutical Works Ltd",
+     "price-box 2": "151.20",
+     "id": 6
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/886892/dr_ortho_pain_relief_oil_100_ml_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Dr.Ortho Pain Relief Oil 100 ml",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: SBS Biotech Unit Ll",
+     "price-box 2": "280.25",
+     "id": 7
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/15895/dabur_ashwagandha_churna_100_gm_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Dabur Ashwagandha Churna 100 gm",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "133.00",
+     "id": 8
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/413892/dabur_triphala_churna_500_gm_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Dabur Triphala Churna 500 gm",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "157.70",
+     "id": 9
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/113668/dabur_honey_500_gm_0_2.jpg",
+     "save-badge": "5% OFF",
+     "name": "Dabur Honey 500 gm",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "228.00",
+     "id": 10
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/824207/sri_sri_tattva_ashwagandha_500_mg_tablet_60_s_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Sri Sri Tattva Ashwagandha 500 mg Tablet 60's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Sriveda Sattva Pvt Ltd",
+     "price-box 2": "142.50",
+     "id": 11
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/821332/kapiva_wild_tulsi_giloy_juice_1_ltr_0_3.jpg",
+     "save-badge": "25.3% OFF",
+     "name": "Kapiva Wild Tulsi Giloy Juice 1 ltr",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Adret Retail Pvt Ltd, (Kapiva)",
+     "price-box 2": "298.80",
+     "id": 12
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/829082/amlycure_ds_capsule_20s_0_1.jpg",
+     "save-badge": "5% OFF",
+     "name": "Aimil Amlycure D.S Capsule 20's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Herbalify Global",
+     "price-box 2": "171.00",
+     "id": 13
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/840449/dabur_hajmola_imli_tablets_120_s_0.jpg",
+     "save-badge": "3% OFF",
+     "name": "Dabur Hajmola Imli Digestive Tablets 120's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "53.35",
+     "id": 14
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/350090/mentat_tablet_60_s_0.jpg",
+     "save-badge": "10% OFF",
+     "name": "Himalaya Mentat Tablet 60's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "126.00",
+     "id": 15
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/15921/dabur_shilajit_gold_capsule_10s_0_1.jpg",
+     "save-badge": "16% OFF",
+     "name": "Dabur Shilajit Gold Capsule 10's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "231.00",
+     "id": 16
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/313682/dabur_chyawanprash_1_kg_0.jpg",
+     "save-badge": "7% OFF",
+     "name": "Dabur Chyawanprash Awaleha 1kg",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "367.35",
+     "id": 17
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/413011/pankajakasthuri_orthoherb_tablet_60_s_0.jpg",
+     "save-badge": "12% OFF",
+     "name": "Pankajakasthuri Orthoherb Tablet 60's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Pankajakasthuri Herbals India Pvt Ltd",
+     "price-box 2": "242.00",
+     "id": 18
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/377969/amree_plus_capsule_20_s_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Aimil Amree Plus Capsule 20's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Herbalify Global",
+     "price-box 2": "141.55",
+     "id": 19
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/413952/kayam_churna_100_gm_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Kayam Churna 100 gm",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Seth Brothers",
+     "price-box 2": "94.05",
+     "id": 20
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/13524/zandu_balm_ultra_power_8_ml_0.jpg",
+     "name": "Zandu Balm Ultra Power 8 ml",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Emami Ltd",
+     "price-box 2": "48.00",
+     "id": 21
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/407388/baidyanath_isabgol_powder_100_gm_0.jpg",
+     "save-badge": "10% OFF",
+     "name": "Baidyanath Isabgol Powder 100 gm",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Shree Baidyanath Ayurved Bhawan Pvt Ltd,Kolkata",
+     "price-box 2": "99.00",
+     "id": 22
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/380446/abana_tablet_60_s_0.jpg",
+     "save-badge": "11% OFF",
+     "name": "Himalaya Abana Tablet 60's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "137.95",
+     "id": 23
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/15760/prosteez_tablet_20s_115089_0_2.jpg",
+     "save-badge": "10% OFF",
+     "name": "Prosteez Tablet 20'S",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Charak Pharma Pvt Ltd",
+     "price-box 2": "135.00",
+     "id": 24
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/413864/dabur_stresscom_capsules_10_s_0.jpg",
+     "save-badge": "3% OFF",
+     "name": "Dabur Stresscom Capsules 10's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "73.72",
+     "id": 25
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/364988/himalaya_koflet_h_lozenges_ginger_flavour_6_s_0.jpg",
+     "save-badge": "10% OFF",
+     "name": "Himalaya Koflet H Lozenges - Ginger Flavour 6's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "32.40",
+     "id": 26
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/12748/dabur_chyawanprash_awaleha_250_gm_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Dabur Chyawanprash Awaleha 250 gm",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "94.05",
+     "id": 27
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/840553/dabur_honey_250_gm_0_2.jpg",
+     "save-badge": "5% OFF",
+     "name": "Dabur Honey 250 gm",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "114.00",
+     "id": 28
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/857387/japani_oil_15_ml_0.jpg",
+     "save-badge": "10% OFF",
+     "name": "Japani Oil 15 ml",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Chaturbhuj Pharmaceutical Co",
+     "price-box 2": "178.20",
+     "id": 29
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/15836/dabur_lipistat_capsule_10_s_0.jpg",
+     "save-badge": "3% OFF",
+     "name": "Dabur Lipistat Capsule 10's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "87.30",
+     "id": 30
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/367336/r_compound_tablet_100s_0_1.jpg",
+     "save-badge": "8% OFF",
+     "name": "R Compound Tablet 100'S",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Alarsin Pharmaceuticals",
+     "price-box 2": "188.60",
+     "id": 31
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/821278/kapiva_wild_amla_juice_1_ltr_61043_0_4.jpg",
+     "save-badge": "10% OFF",
+     "name": "Kapiva Wild Amla Juice 1 ltr",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Adret Retail Pvt Ltd, (Kapiva)",
+     "price-box 2": "269.10",
+     "id": 32
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/412552/himalaya_wellness_neem_tablet_60_s_0.jpg",
+     "save-badge": "10% OFF",
+     "name": "Himalaya Wellness Neem Tablet 60's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "180.00",
+     "id": 33
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/15789/himalaya_wellness_triphala_tablet_60_s_0.jpg",
+     "save-badge": "13% OFF",
+     "name": "Himalaya Wellness Triphala Tablet 60's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "174.00",
+     "id": 34
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/316749/hamdard_safi_syrup_500_ml_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Hamdard Safi Syrup 500 ml",
+     "category": "Unani",
+     "drug-varients": "Mkt: Hamdard Laboratories India Pvt Ltd",
+     "price-box 2": "218.50",
+     "id": 35
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/406038/patanjali_special_chyawanprash_500_gm_0.jpg",
+     "save-badge": "2% OFF",
+     "name": "Patanjali Special Chyawanprash 500 gm",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Patanjali Ayurved Ltd",
+     "price-box 2": "142.10",
+     "id": 36
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/313684/dabur_ashokarishta_syrup_450_ml_0.jpg",
+     "save-badge": "22% OFF",
+     "name": "Dabur Ashokarishta Syrup 450 ml",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "105.30",
+     "id": 37
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/15817/dabur_honitus_madhuvaani_syrup_150_gm_0.jpg",
+     "save-badge": "3% OFF",
+     "name": "Dabur Honitus Madhuvaani Syrup 150 gm",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "101.85",
+     "id": 38
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/821279/kapiva_get_slim_juice_1_ltr_61046_0_4.jpg",
+     "save-badge": "4.9% OFF",
+     "name": "Kapiva Get Slim Juice 1 ltr",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Adret Retail Pvt Ltd, (Kapiva)",
+     "price-box 2": "522.10",
+     "id": 39
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/399704/dabur_triphala_churna_120_gm_0.jpg",
+     "save-badge": "9% OFF",
+     "name": "Dabur Triphala Churna 120 gm",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "60.06",
+     "id": 40
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/823653/baidyanath_amla_juice_1_ltr_0.jpg",
+     "save-badge": "10% OFF",
+     "name": "Baidyanath Amla Juice 1 ltr",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Shree Baidyanath Ayurved Bhawan Pvt Ltd,Kolkata",
+     "price-box 2": "198.00",
+     "id": 41
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/828001/evecare_forte_liquid_200ml_0.jpg",
+     "save-badge": "11% OFF",
+     "name": "Himalaya Evecare Forte Liquid 200 ml",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "164.65",
+     "id": 42
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/412524/lukoskin_ointment_40gm_oral_liquid_100ml_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Aimil Lukoskin Combo (Ointment 40 gm + Oral Liquid 100 ml)",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Herbalify Global",
+     "price-box 2": "888.25",
+     "id": 43
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/399742/diabecon_tablet_60_s_0.jpg",
+     "save-badge": "13% OFF",
+     "name": "Himalaya Diabecon Tablet 60's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "121.80",
+     "id": 44
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/363406/himalaya_ayurslim_capsule_60_s_0.jpg",
+     "save-badge": "10% OFF",
+     "name": "Himalaya AyurSlim Capsule 60's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "252.00",
+     "id": 45
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/399462/bresol_tablet_60_s_0.jpg",
+     "save-badge": "11% OFF",
+     "name": "Himalaya Bresol Tablet 60's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "155.75",
+     "id": 46
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/800879/dabur_naturecare_isabgol_powder_375_gm_0_1.jpg",
+     "save-badge": "10% OFF",
+     "name": "Dabur Naturecare Isabgol Powder 375 gm",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "324.00",
+     "id": 47
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/410105/pankajakasthuri_breathe_easy_syrup_200_ml_0.jpg",
+     "save-badge": "8% OFF",
+     "name": "Pankajakasthuri Breathe Easy Syrup 200 ml",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Pankajakasthuri Herbals India Pvt Ltd",
+     "price-box 2": "165.60",
+     "id": 48
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/821958/sbl_clearstone_drops_30ml_0.jpg",
+     "save-badge": "15% OFF",
+     "name": "SBL CLEARSTONE DROPS 30ML",
+     "category": "Homeopathy",
+     "drug-varients": "Mkt: SBL Pvt. Ltd.",
+     "price-box 2": "131.75",
+     "id": 49
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/15797/dabur_chandraprabha_vati_tablet_80_s_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Dabur Chandraprabha Vati Tablet 80's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Dabur India Ltd",
+     "price-box 2": "128.25",
+     "id": 50
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/365166/himalaya_koflet_h_lozenges_lemon_flavour_6_s_0.jpg",
+     "save-badge": "10% OFF",
+     "name": "Himalaya Koflet H Lozenges - Lemon Flavour 6's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "29.70",
+     "id": 51
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/369461/herbolax_tablet_100_s_0.jpg",
+     "save-badge": "12% OFF",
+     "name": "Himalaya Herbolax Tablet 100's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "132.00",
+     "id": 52
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/369462/herbolax_capsule_10_s_0.jpg",
+     "save-badge": "11% OFF",
+     "name": "Himalaya Herbolax Capsule 10's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "48.95",
+     "id": 53
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/365777/koflet_syrup_100ml_0.jpg",
+     "save-badge": "11% OFF",
+     "name": "Himalaya Koflet Syrup 100 ml",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "89.00",
+     "id": 54
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/364589/himalaya_pain_relief_oil_100_ml_0_2.jpg",
+     "save-badge": "10% OFF",
+     "name": "Himalaya Pain Relief Oil 100 ml",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "99.00",
+     "id": 55
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/351820/arjin_tablet_100_s_0.jpg",
+     "save-badge": "11% OFF",
+     "name": "Arjin Tablet 100'S",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Alarsin Pharmaceuticals",
+     "price-box 2": "155.75",
+     "id": 56
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/407399/himalaya_wellness_shatavari_tablet_60_s_0.jpg",
+     "save-badge": "10% OFF",
+     "name": "Himalaya Wellness Shatavari Tablet 60's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "162.00",
+     "id": 57
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/825581/wanto_lact_capsule_10_s_0.jpg",
+     "save-badge": "11% OFF",
+     "name": "Wanto Lact Capsule 10'S",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Ozone Ayurvedics",
+     "price-box 2": "141.51",
+     "id": 58
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/408238/baidyanath_shankh_pushpi_sarbat_220_ml_110_ml_free_0.jpg",
+     "save-badge": "10% OFF",
+     "name": "Baidyanath Shankh Pushpi Sarbat (220 ml +110 ml Free)",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: Shree Baidyanath Ayurved Bhawan Pvt Ltd,Kolkata",
+     "price-box 2": "112.50",
+     "id": 59
+    },
+    {
+     "image": "https://www.netmeds.com/images/product-v1/150x150/840206/himalaya_wellness_hadjod_tablet_60_s_0.jpg",
+     "save-badge": "5% OFF",
+     "name": "Himalaya Wellness Hadjod Tablet 60's",
+     "category": "Ayurvedic",
+     "drug-varients": "Mkt: The Himalaya Drug Company",
+     "price-box 2": "180.50",
+     "id": 60
+    }
+   ],
+   "med2" : [
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/loxlpnng3vp7vzsvfmqs.jpg",
+     "name": "Hansaplast Soft Fixation Tape 2.5cm  X 9.14m",
+     "qty": "box of 1 Tape",
+     "rating1": "4.4",
+     "rating2": "274 ratings",
+     "mrp": "91",
+     "discount_percent": "19% off",
+     "discount_price": "73",
+     "id": 1
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/830c39007a734beb8580352a8eff6cb2.jpg",
+     "name": "Tata 1mg Multipurpose Germ Protection Wipes - 72",
+     "qty": "packet of 72 wipes",
+     "rating1": "4.6",
+     "rating2": "161 ratings",
+     "mrp": "190",
+     "discount_percent": "34% off",
+     "discount_price": "124",
+     "id": 2
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/32ab30a9fc77460990094aaf225fe6e2.jpg",
+     "name": "Vicks Zzz Quil Natural Melatonin Sleep Aid Nutraceutical Gummies",
+     "qty": "jar of 10 gummies",
+     "rating1": "4.9",
+     "rating2": "142 ratings",
+     "mrp": "199",
+     "discount_percent": "11% off",
+     "discount_price": "176",
+     "id": 3
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/76caf570-68bb-41bd-86e3-e6a513ab5cf4.jpeg",
+     "name": "Tata 1mg Tejasya Cough Relief Drops Orange",
+     "qty": "strip of 6 lozenges",
+     "rating1": "4.4",
+     "rating2": "185 ratings",
+     "mrp": "18",
+     "discount_percent": "39% off",
+     "discount_price": "11",
+     "id": 4
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/zaoniru9woncxf4acu5z.jpg",
+     "name": "Supradyn Daily Multivitamin Tablet with Essential Zinc, 12 Vitamins, 5 Trace Elements for Daily Immunity &amp; Energy",
+     "qty": "strip of 15 tablets",
+     "rating1": "4.5",
+     "rating2": "3051 ratings",
+     "mrp": "54",
+     "discount_percent": "14% off",
+     "discount_price": "47",
+     "id": 5
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/qaznv0ylmwyhk3t3o7mo.jpg",
+     "name": "Himalaya Diarex Syrup",
+     "qty": "bottle of 100 ml Syrup",
+     "rating1": "4.2",
+     "rating2": "29 ratings",
+     "mrp": "85",
+     "discount_percent": "10% off",
+     "discount_price": "76",
+     "id": 6
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/xjmu0noenhytajvd0gi5.jpg",
+     "name": "Cipcal HD Tablet For Osteoporosis",
+     "qty": "strip of 15 tablets",
+     "rating1": "4.5",
+     "rating2": "53 ratings",
+     "mrp": "86",
+     "discount_percent": "23% off",
+     "discount_price": "66",
+     "id": 7
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/js3faf3ireqoxxcfv0ue.jpg",
+     "name": "Dabur GlucoPlus C 200gm + 50gm Free Orange",
+     "qty": "box of 250 gm Powder",
+     "rating1": "4.6",
+     "rating2": "24 ratings",
+     "mrp": "80",
+     "discount_percent": "5% off",
+     "discount_price": "76",
+     "id": 8
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/weroib9bpr6tjc4uwapq.jpg",
+     "name": "Glucon-D Instant Energy Health Drink Nimbu Pani",
+     "qty": "box of 125 gm Powder",
+     "rating1": "4.5",
+     "rating2": "908 ratings",
+     "discount_price": "47",
+     "id": 9
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/naetym5m5llsn2krqjmn.jpg",
+     "name": "Omnigel for Fast Relief From Pain Sprain and Strain",
+     "qty": "tube of 10 gm Gel",
+     "rating1": "4.5",
+     "rating2": "1925 ratings",
+     "mrp": "59",
+     "discount_percent": "34% off",
+     "discount_price": "39",
+     "id": 10
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/bb873216-e272-483e-8230-d7efd3a1896e.jpeg",
+     "name": "Shelcal 500 Tablet",
+     "qty": "strip of 15 tablets",
+     "rating1": "4.5",
+     "rating2": "7097 ratings",
+     "mrp": "131",
+     "discount_percent": "16% off",
+     "discount_price": "110",
+     "id": 11
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/atrzjjj1uxm5slptazi6.jpg",
+     "name": "Depura 60000 IU Vitamin D3 Oral Solution, Helps Keep Bones Healthy, Aids in Boosting Immunity Sugar Free",
+     "qty": "bottle of 5 ml Oral Solution",
+     "rating1": "4.5",
+     "rating2": "1553 ratings",
+     "mrp": "99",
+     "discount_percent": "16% off",
+     "discount_price": "83",
+     "id": 12
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/38b86c6a33f744afac80ed36d4bb87ba.jpg",
+     "name": "Tata 1mg Diabetes Care Combo Pack for Cholesterol &amp; Blood Sugar Management",
+     "qty": "combo pack of 3 Packs",
+     "rating1": "4.4",
+     "rating2": "142 ratings",
+     "mrp": 1085,
+     "discount_percent": "53% off",
+     "discount_price": 512,
+     "id": 13
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/c2sw0gi2dw4cwdf1ecjp.jpg",
+     "name": "Accu-Chek Combo Pack of Active 50 Test Strip &amp; 2 Pack of Softclix Lancet (25 Each)",
+     "qty": "combo pack of 3 units",
+     "rating1": "4.5",
+     "rating2": "185 ratings",
+     "mrp": 1299,
+     "discount_percent": "7% off",
+     "discount_price": 1210,
+     "id": 14
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/537fd698-25dd-43d5-b5f7-02a997bcd33a.jpeg",
+     "name": "Combo Pack of Tata 1mg Multivitamin Supreme Capsule &amp; Dr. Morepen Omega 3 Deep Sea Fish Oil Triple Strength Softgels (60 Each)",
+     "qty": "combo pack of 2 bottles",
+     "rating1": "4.2",
+     "rating2": "3051 ratings",
+     "mrp": 1644,
+     "discount_percent": "50% off",
+     "discount_price": 820,
+     "id": 15
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/qir6i2zlhzeddxa4mqt0.jpg",
+     "name": "Immunity Care Combo of 1mg Panch Tulsi 30ml Drops and Patanjali Ayurveda Giloy Ghanvati 60 Tablet",
+     "qty": "combo pack of 2 Packs",
+     "rating1": "4.5",
+     "rating2": "29 ratings",
+     "mrp": 335,
+     "discount_percent": "36% off",
+     "discount_price": 213,
+     "id": 16
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cr9a2p0evnuzwvw5ksp1.jpg",
+     "name": "Acne Care Combo of Cetaphil Oily Skin Cleanser 125ml and Klm Klin Face Wash 100ml",
+     "qty": "combo pack of 2 Packs",
+     "rating1": "4.6",
+     "rating2": "53 ratings",
+     "mrp": 820,
+     "discount_percent": "15% off",
+     "discount_price": 692,
+     "id": 17
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/if0qou7t1ptcaaowcigp.jpg",
+     "name": "Accu-Chek Active Combo of Glucometer with 10 Test Strip Free and 50 Test Strips",
+     "qty": "combo pack of 2 Packs",
+     "rating1": "4.5",
+     "rating2": "24 ratings",
+     "mrp": 2048,
+     "discount_percent": "6% off",
+     "discount_price": 1925,
+     "id": 18
+    },
+    {
+     "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/uca5jm0uqfqpjoyydzh0.jpg",
+     "name": "Tata 1mg Diabetes Care Combo Pack for Blood Sugar &amp; Cholestrol Management",
+     "qty": "combo pack of 4 bottles",
+     "rating1": "4.5",
+     "rating2": "908 ratings",
+     "mrp": 1580,
+     "discount_percent": "61% off",
+     "discount_price": 609,
+     "id": 19
+    },
+    {
+     "image": "https://onemg.gumlet.io/images/h_150,c_fit,w_150,f_auto,q_auto/0fa72f2c-072d-4c6a-bc52-446edab403a4/tata-1mg-salmon-omega-3-fish-oil-capsule.jpeg",
+     "name": "Tata 1mg Salmon Omega 3 Fish Oil Capsule",
+     "qty": "bottle of 60 capsules",
+     "rating1": 4.4,
+     "rating2": "1790 ratings",
+     "mrp": 995,
+     "discount_percent": "60% off",
+     "discount_price": 398,
+     "id": 20
+    },
+    {
+     "image": "https://onemg.gumlet.io/images/h_150,c_fit,w_150,f_auto,q_auto/qh1au45w8u7cfvf3lg3i/tata-1mg-women-s-multivitamin-veg-tablet-with-zinc-vitamin-c-calcium-vitamin-d-and-iron-support-immunity-bones-overall-health.jpg",
+     "name": "Tata 1mg Women's Multivitamin Veg Tablet with Zinc, Vitamin C, Calcium, Vitamin D and Iron, Support Immunity, Bones &amp; Overall Health",
+     "qty": "bottle of 60 tablets",
+     "rating1": 4.4,
+     "rating2": "1498 ratings",
+     "mrp": 995,
+     "discount_percent": "65% off",
+     "discount_price": 348,
+     "id": 21
+    },
+    {
+     "image": "https://onemg.gumlet.io/images/h_150,c_fit,w_150,f_auto,q_auto/gmkrpf1imjj9djwvq4gq/tata-1mg-multivitamin-supreme-zinc-calcium-and-vitamin-d-capsule-for-immunity-energy-overall-health.jpg",
+     "name": "Tata 1mg Multivitamin Supreme, Zinc, Calcium and Vitamin D Capsule for Immunity, Energy, Overall Health",
+     "qty": "bottle of 60 capsules",
+     "rating1": 4.2,
+     "rating2": "1397 ratings",
+     "mrp": 995,
+     "discount_percent": "60% off",
+     "discount_price": 398,
+     "id": 22
+    },
+    {
+     "image": "https://onemg.gumlet.io/images/h_150,c_fit,w_150,f_auto,q_auto/cropped/vjqcbttlwfq8np41ag3c/1mg-sports-multivitamin-energy-immunity-booster-zinc-vitamin-c-vitamin-d-calcium-and-iron-tablet.png",
+     "name": "1mg Sports Multivitamin Energy &amp; Immunity Booster Zinc, Vitamin C, Vitamin D, Calcium and Iron Tablet",
+     "qty": "bottle of 60 tablets",
+     "rating1": 4.1,
+     "rating2": "131 ratings",
+     "mrp": 1195,
+     "discount_percent": "58% off",
+     "discount_price": 496,
+     "id": 23
+    },
+    {
+     "image": "https://onemg.gumlet.io/images/h_150,c_fit,w_150,f_auto,q_auto/73c2b656962348769f7f93a72090dcaa/tata-1mg-hair-skin-nails-supreme-biotin-capsule-with-collagen-zinc-iron-and-vitamin-b.jpg",
+     "name": "Tata 1mg Hair, Skin &amp; Nails Supreme Biotin Capsule with Collagen, Zinc, Iron and Vitamin B",
+     "qty": "bottle of 60 capsules",
+     "rating1": 4.1,
+     "rating2": "706 ratings",
+     "mrp": 695,
+     "discount_percent": "57% off",
+     "discount_price": 297,
+     "id": 24
+    }
+   ]
+    }
+ 
+  }

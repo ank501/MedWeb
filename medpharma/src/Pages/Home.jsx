@@ -1,8 +1,12 @@
 import React from 'react'
-import { Stack, HStack, VStack ,Image, Box ,Text} from '@chakra-ui/react'
+import { useState ,useEffect } from 'react'
+import { Stack, HStack, VStack ,Image, Box ,Text, Button} from '@chakra-ui/react'
 import Navbar from '../Components/Navbar'
 import Squarecard from '../Components/smallCards/Squarecard'
+import MedCard from '../Components/smallCards/MedCard'
 import CircleCard from '../Components/smallCards/CircleCard'
+import { IoIosArrowBack ,IoIosAlarm} from "react-icons/io";
+import { PhoneIcon, AddIcon, WarningIcon ,ArrowLeftIcon,ArrowRightIcon} from '@chakra-ui/icons'
 
 const data1 = ["https://onemg.gumlet.io/27b7d1ab-d183-41cc-8999-a9af39af1665_1661244546.jpg?w=842&h=200&format=auto","https://onemg.gumlet.io/a_ignore,w_842,h_200,c_fit,q_auto,f_auto/04f86c00-b46d-436d-9e49-52ad2c0d12b4.png","https://onemg.gumlet.io/c5f3c1f9-7a36-41c7-9197-a67c4c9f215a_1667585763.png?w=842&h=200&format=auto","https://onemg.gumlet.io/a_ignore,w_842,h_200,c_fit,q_auto,f_auto/912f861c-6250-47b6-b643-92e3b5e1fce0.png","https://onemg.gumlet.io/46b33653-b14c-4708-b379-1dfb903bacab_1674801336.jpg?w=842&h=200&format=auto" ,"https://onemg.gumlet.io/1665f215-177c-4b5b-8416-447f9de1e5d8_1676449749.jpg?w=842&h=200&format=auto"]
 const healthConcern = [{
@@ -21,10 +25,7 @@ const healthConcern = [{
   img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/995e64ba-5bd9-42bc-8db6-5dc0b821c89d.png",
   name:"Liver care"
 },
-{
-  img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ba975795-98dc-4cd8-8b55-3c20230d70e3.png",
-  name:"Bone,Joint,Muscles care"
-},
+
 {
   img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e77d5099-d905-4462-ab9d-b51802e3739b.png",
   name:"Kidney care"
@@ -53,10 +54,25 @@ const brands = [{img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,
 
 let i=0;
 const Home = () => {
+
+  const [isLoading ,setLoading] = useState(false);
+  const [err,setErr] = useState(false) ; 
+  const [products ,setProducts] =useState([]);
+  const [page,setPage] = useState(1)
+
+ useEffect(()=>{
+   fetch(`https://medpharma.onrender.com/med1?_limit=6&_page=${page}`)
+   .then((res)=>res.json())
+   .then((data)=>setProducts(data))
+ },[page])
+
+
   return (
-    <div style={{border :"1px solid black" ,width:"100%"}}>Home
+
+    <div style={{border :"1px solid black" ,width:"100%"}}>
 <Navbar/>
 {/* body section  */}
+
 <Stack direction={"row"} gap="0">
 <Box>
 
@@ -78,14 +94,25 @@ const Home = () => {
 {/* health section  */}
 
 <Text fontSize={"md"} >Shop By Health Concern </Text>
-<Box style={{display : "grid" , gridTemplateColumns : "Repeat(8 ,1fr)" ,gap:"10px"}}>
-{healthConcern.map((el) =><Squarecard name = {el.name} img={el.img}/>)}
+<Box style={{display : "grid" , gridTemplateColumns : "Repeat(8 ,1fr)" ,gap:"3px"}}>
+{healthConcern.map((el) =><Squarecard key={el.id} name = {el.name} img={el.img}/>)}
 </Box>
 
 {/* brand section  */}
 <Text fontSize={"md"} >Shop By Health Concern </Text>
 <Box style={{display : "grid" , gridTemplateColumns : "Repeat(8 ,1fr)" ,gap:"10px"}}>
-{brands.map((el) =><CircleCard name = {el.name} img={el.img}/>)}
+{brands.map((el) =><CircleCard key={el.id} name = {el.name} img={el.img}/>)}
+</Box>
+
+{/* data section  */}
+<Text fontSize={"md"} >Shop By Health Concern </Text>
+<Box>
+  
+  <Button onClick={()=>setPage(page-1)}disabled={page==1} >{<ArrowLeftIcon/>}</Button>
+   <Box style={{display : "grid" , gridTemplateColumns : "Repeat(6 ,1fr)" ,gap:"10px"}}>
+      {products.map((el) =><MedCard key={el.id} id={el.id} name = {el.name} img={el.image} category={el.category} price={el.price}/>)}
+   </Box>
+   <Button onClick={()=>setPage(page+1)}disabled={page==10}>{<ArrowRightIcon/>}</Button>
 </Box>
 
     </div>
