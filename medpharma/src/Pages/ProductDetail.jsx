@@ -1,8 +1,12 @@
-import React from 'react'
+import React from "react";
+import ProductDetailCard from "../Components/ProductDetailCard";
+
 
 const ProductDetail = () => {
   return (
-    <div>ProductDetail</div>
+    <>
+         <ProductDetailCard/>
+    </>
   )
 }
 
