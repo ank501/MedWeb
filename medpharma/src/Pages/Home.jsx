@@ -47,8 +47,7 @@ const brands = [{img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,
 {img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/f68ca832-4952-4389-b1bd-b32f41830b12.png" , name :"OneTouch"},
 {img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/7b82e3fa-43e9-4718-8d5d-18d226bdcdf5.png" , name :"Baidyanath"},
 {img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/8b77c71c-4e7b-48c5-94d6-811748118d10.png" , name :"Tejsya"},
-{img:"https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/a307b427-631d-436b-bdfc-4a221836588d.png" ,
- name :"Tata 1mg"},
+
 ]
 
 
