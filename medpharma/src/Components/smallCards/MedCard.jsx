@@ -1,11 +1,12 @@
 import React from 'react'
 import { Card, CardHeader, CardBody, CardFooter ,Button ,Divider ,ButtonGroup,Text,Stack,Heading,Image } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
+import "./hoverShadow.css"
 
 
 function MedCard ({img ,name ,category ,desc ,price,discount,id ,addToCart}) {
  return(
-<Card maxW='sm'>
+<Card maxW='sm' className="cardHover">
   <CardBody>
     <Image
       src={img}

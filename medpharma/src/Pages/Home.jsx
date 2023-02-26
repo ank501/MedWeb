@@ -7,6 +7,7 @@ import MedCard from '../Components/smallCards/MedCard'
 import CircleCard from '../Components/smallCards/CircleCard'
 import { IoIosArrowBack ,IoIosAlarm} from "react-icons/io";
 import { PhoneIcon, AddIcon, WarningIcon ,ArrowLeftIcon,ArrowRightIcon} from '@chakra-ui/icons'
+import Footer from '../Components/Footer'
 
 const data1 = ["https://onemg.gumlet.io/27b7d1ab-d183-41cc-8999-a9af39af1665_1661244546.jpg?w=842&h=200&format=auto","https://onemg.gumlet.io/a_ignore,w_842,h_200,c_fit,q_auto,f_auto/04f86c00-b46d-436d-9e49-52ad2c0d12b4.png","https://onemg.gumlet.io/c5f3c1f9-7a36-41c7-9197-a67c4c9f215a_1667585763.png?w=842&h=200&format=auto","https://onemg.gumlet.io/a_ignore,w_842,h_200,c_fit,q_auto,f_auto/912f861c-6250-47b6-b643-92e3b5e1fce0.png","https://onemg.gumlet.io/46b33653-b14c-4708-b379-1dfb903bacab_1674801336.jpg?w=842&h=200&format=auto" ,"https://onemg.gumlet.io/1665f215-177c-4b5b-8416-447f9de1e5d8_1676449749.jpg?w=842&h=200&format=auto"]
 const healthConcern = [{
@@ -86,34 +87,35 @@ const Home = () => {
 <Box marginTop={"25px"} marginBottom={"25px"}>
 <Text fontSize='2xl' >Tata 1mg: India’s Leading Online Pharmacy & Healthcare Platform</Text>
 </Box>
-<Box>
+<Box marginTop={"25px"} marginBottom={"25px"}>
 <Image width={"95%"} margin="auto" src='https://onemg.gumlet.io/marketing/29087450-0f25-4856-96fc-62f4ea81bbd3.png' />
 </Box>
 
 {/* health section  */}
 
-<Text fontSize={"md"} >Shop By Health Concern </Text>
-<Box style={{display : "grid" , gridTemplateColumns : "Repeat(8 ,1fr)" ,gap:"3px"}}>
+<Text fontSize={"2xl"} fontWeight={"bold"} marginTop={"25px"} marginBottom={"25px"}  >Shop By Health Concern </Text>
+<Box style={{display : "grid" , gridTemplateColumns : "Repeat(8 ,1fr)" ,gap:"3px" ,boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"}}>
 {healthConcern.map((el) =><Squarecard key={el.id} name = {el.name} img={el.img}/>)}
 </Box>
 
 {/* brand section  */}
-<Text fontSize={"md"} >Shop By Health Concern </Text>
-<Box style={{display : "grid" , gridTemplateColumns : "Repeat(8 ,1fr)" ,gap:"10px"}}>
+<Text fontSize={"2xl"} fontWeight={"bold"} marginTop={"25px"} marginBottom={"25px"}  >Shop By Brand </Text>
+<Box style={{display : "grid" , gridTemplateColumns : "Repeat(8 ,1fr)" ,gap:"10px" ,boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"}}>
 {brands.map((el) =><CircleCard key={el.id} name = {el.name} img={el.img}/>)}
 </Box>
 
 {/* data section  */}
-<Text fontSize={"md"} >Shop By Health Concern </Text>
+<Text fontSize={"2xl"} fontWeight={"bold"} marginTop={"25px"} marginBottom={"25px"}  >Medicines </Text>
 <Box>
-  
+  <HStack>
   <Button onClick={()=>setPage(page-1)}disabled={page==1} >{<ArrowLeftIcon/>}</Button>
    <Box style={{display : "grid" , gridTemplateColumns : "Repeat(6 ,1fr)" ,gap:"10px"}}>
       {products.map((el) =><MedCard key={el.id} id={el.id} name = {el.name} img={el.image} category={el.category} price={el.price}/>)}
    </Box>
    <Button onClick={()=>setPage(page+1)}disabled={page==10}>{<ArrowRightIcon/>}</Button>
+   </HStack>
 </Box>
-
+<Footer/>
     </div>
   )
 }

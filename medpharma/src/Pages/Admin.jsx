@@ -7,12 +7,16 @@ import {
   Tfoot,
   Tr,
   Th,
+  Text,
   Td,
   TableCaption,
   TableContainer,
   Image,
   Button,
-  Box
+  Box,
+  Divider,
+  Input,
+  HStack
 } from '@chakra-ui/react'
 
 const Admin = () => {
@@ -27,6 +31,24 @@ const Admin = () => {
 
   return (
     <Box style={{width:"100%" , margin :"auto" ,border:"1px solid teal"}}>
+     
+    <form style={{width:"50%" ,margin : "auto"}}>
+      
+    <HStack> <Text>Name:-</Text><Input type={"text"} placeholder="name" /></HStack>
+    <br/>
+    <HStack> <Text>ImgURL:-</Text><Input type={"text"} placeholder="img url"/></HStack>
+    <br/>
+    <HStack> <Text>Price:-</Text> <Input type={"text"}  placeholder="price"/></HStack>
+    <br/>
+    <HStack> <Text>Category:-</Text>  <Input type={"text"} placeholder="category"/></HStack>
+    <br/>
+      <Button colorScheme='linkedin' style={{marginBottom :"30px"}}>Add data</Button>
+    </form>
+
+    <Divider/>
+
+
+
     <TableContainer >
     <Table variant='striped' colorScheme='teal'>
       <Thead>
@@ -43,7 +65,7 @@ const Admin = () => {
          return( 
          <Tr key={el.id
          }>
-            <Td><Image style={{borderRadius:"50%"}} src={el.image}></Image></Td>
+            <Td><Image style={{borderRadius:"50%"}} width="30%" src={el.image}></Image></Td>
             <Td>{el.name}</Td>
             <Td>{el.price}</Td>
             <Td>{el.category}</Td>
