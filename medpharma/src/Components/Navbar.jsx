@@ -19,16 +19,17 @@ const Navbar = () => {
   return (
     <HStack style={{padding : "20px" ,justifyContent :"space-evenly" , marginBottom:"50px" ,boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}>
  {/* <HStack style={{border :"1px solid black" ,justifyContent :"space-around"}} > */}
-   <Link to="/product">LabTest Offer</Link>
-   <Link to="/product">Consult Doctors</Link>
-   <Link to="/product">Covid 19</Link>
-   <Link to="/product">Health care plan</Link>
+   <Link to="/" >LabTest Offer</Link>
+   <Link to="/">Consult Doctors</Link>
+   <Link to="/">Covid 19</Link>
+   <Link to="/">Health care plan</Link>
     {/* </HStack> */}
       {/* <HStack> */}
       <Link to="/login">Log In </Link>
       <Link to="/register">Sign Up</Link>
-      <Link to="/product">Offer</Link>
+      <Link to="/">Offer</Link>
       <Link to="/cart">{<BsCart3/>}</Link>
+      <Link to="/admin">Admin</Link>
        {/* </HStack> */}
        </HStack>
   )

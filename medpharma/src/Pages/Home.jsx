@@ -109,7 +109,7 @@ const Home = () => {
 <Box>
   <HStack>
   <Button onClick={()=>setPage(page-1)}disabled={page==1} >{<ArrowLeftIcon/>}</Button>
-   <Box style={{display : "grid" , gridTemplateColumns : "Repeat(6 ,1fr)" ,gap:"10px"}}>
+   <Box style={{display : "grid" , gridTemplateColumns : "Repeat(6,1fr)" ,gap:"10px"}}>
       {products.map((el) =><MedCard key={el.id} id={el.id} name = {el.name} img={el.image} category={el.category} price={el.price}/>)}
    </Box>
    <Button onClick={()=>setPage(page+1)}disabled={page==10}>{<ArrowRightIcon/>}</Button>
