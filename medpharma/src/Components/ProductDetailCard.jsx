@@ -22,18 +22,18 @@ import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { MdLocalShipping } from 'react-icons/md';
 import { PhoneIcon, AddIcon, WarningIcon ,ArrowLeftIcon,ArrowRightIcon} from '@chakra-ui/icons'
 
-import { Link } from 'react-router-dom';
+import { Link ,useNavigate } from 'react-router-dom';
 
-export default function ProductDetailCard({img ,name,category,price,discount}) {
-
-
+export default function ProductDetailCard({img ,name,category,price,discount,handleAdd}) {
+// 
+const navigate=useNavigate()
   const click = () => {
-    return 
+    return navigate('/')
   }
 
   return (
     <Container maxW={'7xl'}>
-    <Button onClick={click} >{<ArrowLeftIcon/>} Back to Home Page </Button>
+    <Button onClick={click} style={{marginTop:"10px"}} colorScheme="teal" >{<ArrowLeftIcon/>} Back to Home Page </Button>
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}
         spacing={{ base: 8, md: 10 }}
@@ -110,8 +110,8 @@ export default function ProductDetailCard({img ,name,category,price,discount}) {
             _hover={{
               transform: 'translateY(2px)',
               boxShadow: 'lg',
-            }}>
-            Add to cart
+            }}   onClick={handleAdd}>
+            Buy Now
           </Button>
 
           <Stack direction="row" alignItems="center" justifyContent={'center'}>

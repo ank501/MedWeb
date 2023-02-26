@@ -1,7 +1,8 @@
 import React from 'react'
 import "./hoverShadow.css"
+import { Card, CardHeader, CardBody, CardFooter ,Heading,Text,Image,Stack,Divider,Button,ButtonGroup} from '@chakra-ui/react'
 
-const CartCard = ({img ,name}) => {
+const CartCard = ({img ,name,description,price}) => {
   return (
     <Card maxW='sm' className="cardHover">
   <CardBody>
