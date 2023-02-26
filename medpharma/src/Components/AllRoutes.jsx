@@ -8,6 +8,7 @@ import NoFound from '../Pages/NoFound'
 import ProductDetail from '../Pages/ProductDetail'
 import ProductPage from '../Pages/ProductPage'
 import Register from '../Pages/Register'
+import CartPage from '../Pages/CartPage'
 
 const AllRoutes = () => {
   return (
@@ -19,6 +20,7 @@ const AllRoutes = () => {
         <Route path='/products/:id' element={<ProductDetail/>} />
         <Route path='/checkout' element={<Checkout/>} />
         <Route path='/admin' element={<Admin/>} />
+        <Route path='/cart' element={<CartPage/>} />
         <Route path='*' element={<NoFound/>} />
      </Routes>
   )
