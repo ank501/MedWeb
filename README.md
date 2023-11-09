@@ -1,4 +1,4 @@
-# judicious-rice-4024
+# MedWeb
 Clone of 1mg website.
 Json server is deployed in render.
 Tech Stack Used HTML ,CSS ,React and for Design used UI libarary Chakra UI.
